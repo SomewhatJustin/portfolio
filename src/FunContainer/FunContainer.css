@@ -1,0 +1,14 @@
+.fun-container {
+  background: #eee;
+  border-radius: 25px;
+  padding: 10px;
+  margin: 30px 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media (prefers-color-scheme: dark) {
+  .fun-container {
+    background: #333;
+  }
+}
