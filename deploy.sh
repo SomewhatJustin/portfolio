@@ -14,6 +14,7 @@ echo 'justin.how' > CNAME
 
 git init
 git checkout -b main
+# Capitalize the -b to reset
 git add -A
 git commit -m 'deploy'
 

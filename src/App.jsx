@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import ButtonLink from './ButtonLink'
+import ButtonLink from './ButtonLink/ButtonLink.jsx'
 
 import './App.css'
 
@@ -18,7 +18,8 @@ function App() {
         <a href="https://somewhatjustin.github.io/tenzies/"><h4>Tenzies</h4></a>
         <p>A dice-rolling game. Design assets from Scimba.</p>
       </div>
-      <ButtonLink>Find me on Github <i class="fa-brands fa-github"></i></ButtonLink>
+      <ButtonLink icon="github" text="Find me on Github" link={"https://github.com/somewhatjustin"} />
+      <ButtonLink icon="linkedin" text="See my professional experience" link={"https://www.linkedin.com/in/sjustinfowler"} />
     </div>
   )
 }

@@ -1,0 +1,20 @@
+.fun-button {
+  background: #027aff;
+  display: inline;
+  padding: 5px 14px;
+  border-radius: 5px;
+  margin: 20px 10px;
+}
+
+.fun-button a,
+.fun-button i {
+  color: white;
+}
+
+.fun-button:hover {
+  background: #0061cc;
+}
+
+.fun-button a:hover {
+  color: white;
+}
